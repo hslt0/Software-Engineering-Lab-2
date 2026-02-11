@@ -3,6 +3,7 @@ using AbstractFactory.Devices.IProne;
 
 namespace AbstractFactory.Factories;
 
+// ReSharper disable once InconsistentNaming
 public class IProneFactory : IDeviceFactory
 {
     public Laptop CreateLaptop() => new IProneLaptop();
