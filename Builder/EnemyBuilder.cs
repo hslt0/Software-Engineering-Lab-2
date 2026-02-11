@@ -2,7 +2,7 @@ namespace Builder
 {
     public class EnemyBuilder : ICharacterBuilder
     {
-        private Character _character = new Character();
+        private Character _character = new();
 
         public EnemyBuilder()
         {
